@@ -1,27 +1,83 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.red {
+  color: red;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin : 0;
+  background : #303030;
+  color : white;
+}
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
+.title-sub {
+  text-align : center
+}
+
+.park {
+  margin: 20px auto;
+  width: 200px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.navbar{
+  background: white;
+  padding: 20px;
+}
+.navbar a {
+  margin-right: 10px;
+  text-decoration:
+  none;
+}
+
+.park1-img{
+  width : 100%;
+  margin: auto;
+  height : auto;
+}
+
+.park2-img{
+  width : 80%;
+  margin: auto;
+  height : auto;  
+}
+
+.cart-item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  line-height: 0px;
+} 
+
+.mybtn {
+  width: 100px;
+  margin: auto;
+  display: block;
+}
+
+.high {
+  margin: 20px auto;
+  margin-top: 100px;
+  width: 500px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.green1-img{
+  width : 9%;
+  margin: 5px;
+  height : auto;
+}
+
+.high1-img{
+  width : 100%;
+  margin: auto;
+  height : auto;  
 }
